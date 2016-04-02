@@ -11,3 +11,4 @@ deploy:
   acl: public_read
   on:
     repo: gavincabbage/tiles.il2missionplanner.com
+    branch: master
