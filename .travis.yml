@@ -9,6 +9,7 @@ deploy:
   local-dir: img
   upload-dir: img
   acl: public_read
+  skip_cleanup: true
   on:
     repo: gavincabbage/tiles.il2missionplanner.com
     branch: master
