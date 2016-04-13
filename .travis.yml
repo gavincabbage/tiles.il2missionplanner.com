@@ -6,8 +6,7 @@ deploy:
   secret_access_key:
     secure: eboLEBROpwKdJ69iSRG1FtUh+22DM/qLnOF6h+2Mu0ASqvd916S+PGbp4eobRiAVNNKfYSq0YPvRhnMdtzFd3/2+NI9wUDEMAxODZ/ZwsJ7YjjLUl/fzjNJ5+x8NERP/zP/x1W+xpKtNvZSkPjuxGUTCXXCjaJclJiyrqfmDTz3iqfNOAyDjc01ApKzWu2+mpJ3hXHoxY+0Mu6lcghmLy6K8eC5mBPk8qJHQgnEOVVKNWxZuj1j0+fx0TpvO/KIMrgA4fl7Z4vfn5+VrD/4vmt+8AHc5EXxqTseBA4J9fBAub4y5mpCYmrLLPBG5p1D7fm+8FOgwXmnpDq/jw9EAIaaGuW7m+S4w0iDBzFO6EHJDLLqnKI2XV9/kP6PnP/azs/QSPm7rFnSkRiIiGMurXICsJCDDzpSNw8N1SvGVbi3huY/ixYjijLoQ4H9BD97Gr9dCtDicjiufmuKmnlGmeur2WVkIDupbqyak6FGQMO1kaB+ceIwyXrbF3JiI/SVWkekxpRRPmjDlPHV+2owThuTPHQIBRTIEwQfS047JDt1WTudYh7Zc803beIInY6w5TIxtTbvKONmtNUokzPZvWaW0juIKjAOmyXMdGSFd+6vqLT/cB9C5S5PAVwn8AsxsaoLnpi1Cqj6jgfRCzAtrQZafE9APa8oy+exMYlWvmJQ=
   bucket: tiles.il2missionplanner.com
-  local-dir: img
-  upload-dir: img
+  local-dir: dist
   acl: public_read
   skip_cleanup: true
   on:
