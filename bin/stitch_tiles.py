@@ -6,7 +6,7 @@ from PIL import Image
 # MAX = 12
 
 X_MIN = 1
-X_MAX = 7
+X_MAX = 8
 Y_MIN = 1
 Y_MAX = 5
 
@@ -31,21 +31,23 @@ def main():
             tile = Image.open(fileName)
             tiles[y][x] = tile
 
-    # for i in range(1, Y_MAX+1):
-    #     (_, height) = tiles[i][1].size
-    #     totalHeight = height
-    #
-    #
-    # for j in range(1, X_MAX+1):
-    #     (width, _) = tiles[1][j].size
-    #     totalWidth += width
-    #
-    # print totalWidth
-    # print totalHeight
+    print tiles
+
+    for i in range(1, Y_MAX+1):
+        (_, height) = tiles[i][1].size
+        totalHeight += height
+
+
+    for j in range(1, X_MAX+1):
+        (width, _) = tiles[1][j].size
+        totalWidth += width
+
+    print totalWidth
+    print totalHeight
 
     (baseWidth, baseHeight) = tiles[1][1].size
-    totalWidth = X_MAX * baseWidth
-    totalHeight = Y_MAX * baseHeight
+    # totalWidth = X_MAX * baseWidth
+    # totalHeight = Y_MAX * baseHeight
 
     result = Image.new('RGB', (totalWidth, totalHeight))
     for y in range(1, Y_MAX+1):
