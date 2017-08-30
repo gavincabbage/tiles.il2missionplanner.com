@@ -6,9 +6,9 @@ from PIL import Image
 # MAX = 12
 
 X_MIN = 1
-X_MAX = 8
+X_MAX = 20
 Y_MIN = 1
-Y_MAX = 5
+Y_MAX = 16
 
 def padTwoDigits(number):
     if number < 10:
