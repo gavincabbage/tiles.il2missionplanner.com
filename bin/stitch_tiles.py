@@ -3,7 +3,7 @@ from PIL import Image
 # http://stackoverflow.com/questions/10657383/stitching-photos-together
 
 X_MIN = 1
-X_MAX = 20
+X_MAX = 16
 Y_MIN = 1
 Y_MAX = 16
 
