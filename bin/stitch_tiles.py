@@ -2,9 +2,6 @@ from PIL import Image
 
 # http://stackoverflow.com/questions/10657383/stitching-photos-together
 
-# MIN = 1
-# MAX = 12
-
 X_MIN = 1
 X_MAX = 20
 Y_MIN = 1
@@ -46,8 +43,6 @@ def main():
     print totalHeight
 
     (baseWidth, baseHeight) = tiles[1][1].size
-    # totalWidth = X_MAX * baseWidth
-    # totalHeight = Y_MAX * baseHeight
 
     result = Image.new('RGB', (totalWidth, totalHeight))
     for y in range(1, Y_MAX+1):

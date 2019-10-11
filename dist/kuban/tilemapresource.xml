@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
     <TileMap version="1.0.0" tilemapservice="http://tms.osgeo.org/1.0.0">
-      <Title>kuban.png</Title>
+      <Title>stitch_cropped.png</Title>
       <Abstract></Abstract>
       <SRS></SRS>
-      <BoundingBox minx="0.00000000000000" miny="-12792.00000000000000" maxx="18477.00000000000000" maxy="0.00000000000000"/>
-      <Origin x="0.00000000000000" y="-12792.00000000000000"/>
+      <BoundingBox minx="0.00000000000000" miny="-12791.00000000000000" maxx="18475.00000000000000" maxy="0.00000000000000"/>
+      <Origin x="0.00000000000000" y="-12791.00000000000000"/>
       <TileFormat width="256" height="256" mime-type="image/png" extension="png"/>
       <TileSets profile="raster">
         <TileSet href="0" units-per-pixel="128.00000000000000" order="0"/>
